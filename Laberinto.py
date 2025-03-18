@@ -35,3 +35,8 @@ def main():
             print("Movimiento no válido.") 
 if __name__ == "__main__": 
     main()
+    #git add .
+    # git commit -m"
+    #git push
+
+    #git push origin main
