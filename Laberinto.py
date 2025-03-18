@@ -8,8 +8,8 @@
 >>>>>>> 98097d5cbf77244648b2cdc2945e356469d9c132
 FILAS = 5 
 COLUMNAS = 5 
-META_FILA = FILAS - 1
-META_COLUMNA = COLUMNAS - 2 
+META_FILA = FILAS - 6
+META_COLUMNA = COLUMNAS - 6 
 def main(): 
     laberinto = [[False] * COLUMNAS for _ in range(FILAS)] 
     fila_jugador, columna_jugador = 0, 0 
