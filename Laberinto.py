@@ -21,7 +21,7 @@ def main():
             print("\n¡Has alcanzado la meta! ¡Felicidades!") 
             break 
         movimiento = input("\nIngrese movimiento (w: arriba, s: abajo, a: izq, d: der): ") 
-        if movimiento == 'w' and fila_jugador > 0: 
+        if movimiento == '2' and fila_jugador > 0: 
             fila_jugador -= 1 
         elif movimiento == 's' and fila_jugador < FILAS - 1: 
             fila_jugador += 1 
