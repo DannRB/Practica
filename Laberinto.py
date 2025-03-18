@@ -1,10 +1,14 @@
 #Comentario de prueba
 #Daniiii
 #Camacho
+<<<<<<< HEAD
 #OASES
+=======
+#SIIII
+>>>>>>> 98097d5cbf77244648b2cdc2945e356469d9c132
 FILAS = 5 
 COLUMNAS = 5 
-META_FILA = FILAS - 1 
+META_FILA = FILAS - 1
 META_COLUMNA = COLUMNAS - 2 
 def main(): 
     laberinto = [[False] * COLUMNAS for _ in range(FILAS)] 
@@ -26,7 +30,7 @@ def main():
         movimiento = input("\nIngrese movimiento (w: arriba, s: abajo, a: izq, d: der): ") 
         if movimiento == '2' and fila_jugador > 0: 
             fila_jugador -= 1 
-        elif movimiento == 's' and fila_jugador < FILAS - 1: 
+        elif movimiento == '1' and fila_jugador < FILAS - 1: 
             fila_jugador += 1 
         elif movimiento == 'a' and columna_jugador > 0: 
             columna_jugador -= 1 
